@@ -1,0 +1,292 @@
+.wrapper {
+		width:80%;
+		min-width:200px;
+		margin:auto;
+	}
+	
+/*--- Links ---*/
+
+
+/*----- Tabs -----*/
+.tabs {
+    width:60%;
+	padding:0 0 0 180px;
+    display:inline-block;
+	vertical-align:top;
+	/*border: 1px solid black;*/
+	text-decoration:none;
+}
+ 
+    /*----- Tab Links -----*/
+	.tab-links{
+		padding:0;
+		margin:10px 0 15px 0;
+		}
+	
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            /*background:#fff;*/
+			/*--background:blue;--3.15*/
+            font-size:16px;
+            font-weight:600;
+            /*--color:white;--3.15*/
+            color:#293478;
+            transition:all linear 0.15s;
+			text-decoration:none;
+        }
+ 
+        .tab-links a:hover {
+            /*--background:#F00;--*/
+            color:#b42025;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        /*--background:#D02D2D;--3.15*/
+        color:#b42025;
+		text-decoration:none;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#FFF;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+/*----Index.html---*/
+/*----Paragraph Styles---*/
+p.main {
+	padding:0 0 0 20px;
+	width:60%;
+	height:100%;
+  	display:inline-block;
+	vertical-align:top;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p.communitycenter {
+    padding:0 0 0 20px;
+	width:60%;
+	height:100%;
+  	display:inline-block;
+	vertical-align:top; 
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p.retreatcenter {
+    padding:0 0 0 20px;
+	width:60%;
+	height:100%;
+  	display:inline-block;
+	vertical-align:top; 
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p.phonenumber {
+	/*width:60%;
+	height:100%;*/
+    text-align:center;
+	vertical-align:top;
+    font-size: 16px;
+}
+
+/*----Picture styles----*/
+.ahlogo {
+	height:60px;
+	width:130px;	
+	display:inline-block;
+	vertical-align:top;
+	}
+
+.flag {
+	padding:10px 0 0 0;
+	height:250px;
+	width:300px;	
+	display:inline-block;
+	vertical-align:top;
+}
+
+.communitycenter {
+	padding:10px 0 0 0;
+	height:250px;
+	width:300px;	
+	display:inline-block;
+	vertical-align:top;
+}
+
+.retreat {
+	padding:10px 0 0 0;
+	height:250px;
+	width:300px;	
+	display:inline-block;
+	vertical-align:top;
+}
+
+.aboutuslogo {
+	height:200px;
+	width:250px;
+	margin-left: auto;
+    margin-right: auto;	
+	display:block;
+	vertical-align:top;
+	
+}
+
+/*---Social Media Styles---*/
+#aboutusinfo{
+	position:absolute;
+	right:10px;
+	top:70px;
+	width:70px;
+}
+.aboutusemail {
+    display:block;
+    height:35px;
+	width:35px;	
+    vertical-align:top;
+}
+
+.facebook {
+    padding:10px 0 0 0;
+    height:30px;
+	width:30px;	
+	display:block;
+    /*position:absolute;
+    right:23px;*/
+    vertical-align:top;
+}
+
+.twitter {
+    padding:10px 0 0 0;
+    height:30px;
+	width:30px;
+    /*position:absolute;
+    right:23px;*/
+	display:block;
+}
+
+.instagram {
+    padding:10px 0 0 0;
+    height:30px;
+	width:30px;
+    /*position:absolute;
+    right:23px;*/
+	display:block;
+	vertical-align:top;
+}
+
+.linkedin {
+   padding:10px 0 0 0;
+    height:30px;
+	width:30px;	
+    /*position:absolute;
+    right:23px;*/
+	display:block;
+	vertical-align:top;
+}
+
+.pinterest {
+    padding:10px 0 0 0;
+    height:30px;
+	width:30px;	
+    /*position:absolute;
+    right:23px;*/
+	display:block;
+	vertical-align:top;
+}
+
+.vimeo {
+    padding:10px 0 0 0;
+    height:30px;
+	width:30px;	
+    /*position:absolute;
+    right:23px;*/
+	display:block;
+	vertical-align:top;
+}
+
+/*---Contact US---*/
+.calloffice {
+    text-align:center;
+    padding:20px 0 0 0;
+    margin:0;
+}
+
+.phone {
+    padding: 0 10px 0 0;
+    height:15px;
+	width:15px;	
+	vertical-align:top;
+}
+
+.emailus {
+    /*padding: 0 0 0 20px;*/
+	vertical-align:top;
+    text-align:center;
+    text-decoration:underline;
+}
+
+.generalquestions {
+    /*padding: 0 0 0 20px;*/
+	vertical-align:top;
+    text-align:center;
+    /*vertical-align:top;*/
+}
+
+.contactus {
+    text-align:center;
+    display:inline-block;
+	vertical-align:top;
+    /*text-align:center;
+    vertical-align:top;*/
+}
+
+
+/*---Footer---*/
+
+.footer { 
+	/*height:50%;
+	width:70%;
+	display:inline-block;*/
+	/*--vertical-align:top;--*/
+	text-align:center;
+	color:black;
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 500px) {
+    #aboutusinfo {
+        display:none;
+    }
+}
