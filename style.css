@@ -86,7 +86,7 @@ p.main {
 	height:100%;
   	display:inline-block;
 	vertical-align:top;
-    color: #444425;
+    color: black;
     font-size: 16px;
     line-height: 22px;
 }
@@ -97,7 +97,7 @@ p.communitycenter {
 	height:100%;
   	display:inline-block;
 	vertical-align:top; 
-    color: #444425;
+    color: black;
     font-size: 16px;
     line-height: 22px;
 }
@@ -108,20 +108,17 @@ p.retreatcenter {
 	height:100%;
   	display:inline-block;
 	vertical-align:top; 
-    color: #444425;
+    color: black;
     font-size: 16px;
     line-height: 22px;
 }
 
 p.phonenumber {
-	padding:0 0 0 20px;
-	width:60%;
-	height:100%;
-  	display:inline-block;
+	/*width:60%;
+	height:100%;*/
+    text-align:center;
 	vertical-align:top;
-    color: #444425;
     font-size: 16px;
-    line-height: 22px;
 }
 
 /*----Picture styles----*/
@@ -156,32 +153,27 @@ p.phonenumber {
 	vertical-align:top;
 }
 
-.aboutus {
-	padding:10px 0 0 500px;
+.aboutuslogo {
 	height:200px;
-	width:250px;	
-	display:inline-block;
+	width:250px;
+	margin-left: auto;
+    margin-right: auto;	
+	display:block;
 	vertical-align:top;
+	
 }
 
 /*---Social Media Styles---*/
-
+#aboutusinfo{
+	position:absolute;
+	right:10px;
+	top:70px;
+	width:70px;
+}
 .aboutusemail {
-    /*--padding:30px 0 0 60px;
-    height:60px;
-	width:60px;	
-	display:inline-block;
-    position:absolute;
-    top:-px;
-    right:0px;
-	vertical-align:top;--3.15*/
-    padding:20px 0 0 0;
-    position: absolute;
     display:block;
     height:35px;
 	width:35px;	
-    top: 20px;
-    right:20px;
     vertical-align:top;
 }
 
@@ -190,77 +182,111 @@ p.phonenumber {
     height:30px;
 	width:30px;	
 	display:block;
-    position:absolute;
-    right:23px;
+    /*position:absolute;
+    right:23px;*/
     vertical-align:top;
 }
 
 .twitter {
-    padding:50px 0 0 0;
+    padding:10px 0 0 0;
     height:30px;
 	width:30px;
-    position:absolute;
-    right:23px;
+    /*position:absolute;
+    right:23px;*/
 	display:block;
 }
 
 .instagram {
-    padding:90px 0 0 0;
+    padding:10px 0 0 0;
     height:30px;
 	width:30px;
-    position:absolute;
-    right:23px;
+    /*position:absolute;
+    right:23px;*/
 	display:block;
 	vertical-align:top;
 }
 
 .linkedin {
-    padding:130px 0 0 0;
+   padding:10px 0 0 0;
     height:30px;
 	width:30px;	
-    position:absolute;
-    right:23px;
+    /*position:absolute;
+    right:23px;*/
 	display:block;
 	vertical-align:top;
 }
 
 .pinterest {
-    padding:170px 0 0 0;
+    padding:10px 0 0 0;
     height:30px;
 	width:30px;	
-    position:absolute;
-    right:23px;
+    /*position:absolute;
+    right:23px;*/
 	display:block;
 	vertical-align:top;
 }
 
 .vimeo {
-    padding:210px 0 0 0;
+    padding:10px 0 0 0;
     height:30px;
 	width:30px;	
-    position:absolute;
-    right:23px;
+    /*position:absolute;
+    right:23px;*/
 	display:block;
 	vertical-align:top;
 }
 
 /*---Contact US---*/
-.phone{
+.calloffice {
+    text-align:center;
     padding:20px 0 0 0;
+    margin:0;
+}
+
+.phone {
+    padding: 0 10px 0 0;
     height:15px;
 	width:15px;	
-	display:inline-block;
 	vertical-align:top;
 }
 
+.emailus {
+    /*padding: 0 0 0 20px;*/
+	vertical-align:top;
+    text-align:center;
+    text-decoration:underline;
+}
+
+.generalquestions {
+    /*padding: 0 0 0 20px;*/
+	vertical-align:top;
+    text-align:center;
+    /*vertical-align:top;*/
+}
+
+.contactus {
+    text-align:center;
+    display:inline-block;
+	vertical-align:top;
+    /*text-align:center;
+    vertical-align:top;*/
+}
+
+
 /*---Footer---*/
 
-.footer {
-	padding:350px 0 0 650px; 
-	height:50%;
+.footer { 
+	/*height:50%;
 	width:70%;
-	display:inline-block;
-	vertical-align:top;
+	display:inline-block;*/
+	/*--vertical-align:top;--*/
+	text-align:center;
 	color:black;
 	text-decoration:none;
+}
+
+@media only screen and (max-width: 500px) {
+    #aboutusinfo {
+        display:none;
+    }
 }
